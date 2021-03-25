@@ -19,7 +19,7 @@ Users can follow clubs that they are interested in and will get information abou
   - work in progress 
 
 ## Specifications
-  - Website created using Bootstrap
+  - Website created using HTML and Bootstrap
   - Quiz implementation using 
 
 
