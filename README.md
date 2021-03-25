@@ -7,6 +7,8 @@ Many clubs are struggling getting new members due to Covid preventing the club f
 A preliminary quiz will be given to the user to help reccommend them clubs based on their answers to the questions. All clubs have associated tags and these tags will correlate to answers in the quiz. The tags with the highest result will be the clubs that are reccommended to the user at the end of the quiz.
   - script and implementation - work in progress
 
+![Quiz](Quiz.jpg)
+
 ### Website Main Layout
   - design and implementation - work in progress
 
@@ -15,9 +17,13 @@ Part of the website that promotes new clubs.
   - Clicking "Learn More" will redirect the user to the club page.
   - work in progress 
 
+![featured](Featured.jpg)
+
 ### User Clubs Page
 Users can follow clubs that they are interested in and will get information about these clubs on their page.
   - work in progress 
+
+![Following](Following.jpg)
 
 ## Specifications
   - Website created using HTML and Bootstrap
