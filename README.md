@@ -1,7 +1,7 @@
 # Club Connect
 Many clubs are struggling getting new members due to Covid preventing the club fair and limiting activities. Club Connect is a website that helps students and clubs connect. The website will start by giving a general personality quiz to find out the users interests and then would give suggestions based on these interests. Other features include a "featured clubs" page where each week several new clubs are chosen and promoted. The user can also follow clubs that they have joined or are simply interested in. The events and activities of these clubs will be posted on their own page so that the user can easily get involved.
 
-## Features
+## Features:
 
 ## Specifications
   - Website created using Bootstrap
