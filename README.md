@@ -20,7 +20,7 @@ Users can follow clubs that they are interested in and will get information abou
 
 ## Specifications
   - Website created using HTML and Bootstrap
-  - Quiz implementation using 
+  - Quiz implementation using JavaScript?
 
 
 
