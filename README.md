@@ -4,8 +4,8 @@ Many clubs are struggling getting new members due to Covid preventing the club f
 ## Features
 
 ## Specifications
--Website created using Bootstrap
--Quiz implementation using 
+  - Website created using Bootstrap
+  - Quiz implementation using 
 
 ### User Quiz
 A preliminary quiz will be given to the user to help reccommend them clubs based on their answers to the questions. All clubs have associated tags and these tags will correlate to answers in the quiz. The tags with the highest result will be the clubs that are reccommended to the user at the end of the quiz.
