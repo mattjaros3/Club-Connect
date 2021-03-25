@@ -11,7 +11,8 @@ A preliminary quiz will be given to the user to help reccommend them clubs based
   - design and implementation - work in progress
 
 ### Featured Clubs Page
-Part of the website that promotes new clubs.
+Part of the website that promotes new clubs. 
+  - Clicking "Learn More" will redirect the user to the club page.
   - work in progress 
 
 ### User Clubs Page
