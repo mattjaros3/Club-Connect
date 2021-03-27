@@ -1,100 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-<title>JavaScript Quiz</title>
-</head>
-<body>
-<h1>Personality Quiz</h1>
-<form id="form1">
-
-<h2>What sport are you most interested in?</h2>
-<label for="var_string"><input type="radio" name="variable" value="1" id="var_string" />Football</label>
-<label for="var_join"><input type="radio" name="variable" value="2" id="var_join" />Archery</label>
-<label for="var_info"><input type="radio" name="variable" value="3" id="var_info" />Chess</label>
-<label for="var_condition"><input type="radio" name="variable" value="4" id="var_condition"/>Soccer</label>
-
-<h2>What is your main reason for joining a club?</h2>
-<label for="sub_string"><input type="radio" name="sub" value="10" id="sub_string"/>Community Service</label>
-<label for="sub_join"><input type="radio" name="sub" value="20" id="sub_join"/>Physical fitness</label>
-<label for="sub_info"><input type="radio" name="sub" value="30" id="sub_info" />Furthering your education</label>
-<label for="sub_condition"><input type="radio" name="sub" value="40" id="sub_condition" />Leadership opportunities</label>
-
-<h2>Do you prefer outdoors or indoors activities?</h2>
-<label for="cat_string"><input type="radio" name="con" value="100" id="cat_string" />Outdoors</label>
-<label for="cat_join"><input type="radio" name="con" value="200" id="cat_join" />Indoors</label>
-
-<h2>What year are you?</h2>
-<label for="if_string"><input type="radio" name="ifstate" value="0" id="if_string" />Freshman</label>
-<label for="if_join"><input type="radio" name="ifstate" value="0" id="if_join" />Sophmore</label>
-<label for="if_info"><input type="radio" name="ifstate" value="0" id="if_info" />Junior</label>
-<label for="if_condition"><input type="radio" name="ifstate"  value="0" id="if_condition" />Senior</label>
-
-<br><br>
-<button type="submit" value="Submit">Submit</button>
-
-</form>
-    <script>
-document.getElementById("form1").onsubmit=function() {
-       variable = parseInt(document.querySelector('input[name = "variable"]:checked').value);
-	   sub = parseInt(document.querySelector('input[name = "sub"]:checked').value);
-	   con = parseInt(document.querySelector('input[name = "con"]:checked').value);
-	   ifstate = parseInt(document.querySelector('input[name = "ifstate"]:checked').value);
-	   
-	   var result = [];
-    var sport = "";
-    var reason = "";
-    var doors = "";
-	   result = [variable,sub,con,ifstate];
-    
-    if (result[0]==1){
-        sport = "Club Football"
-    }
-    if (result[0]==2){
-        sport = "Club Archery"
-    }
-    
-    if (result[0]==3){
-        sport = "Chess Club"
-    }
-	   
-    if (result[0]==4){
-        sport = "Club Soccer"
-    }
-	document.getElementById("sport").innerHTML = sport;
-    
-    if (result[1]==10){
-        reason = "BMP Outreach Group"
-    }
-    if (result[1]==20){
-        reason = "Barbell Club"
-    }
-    
-    if (result[1]==30){
-        reason = "American Society of Mechanical Engineers"
-    }
-	   
-    if (result[1]==40){
-        reason = "Student Government Board"
-    }
-	document.getElementById("reason").innerHTML = reason;
-	   
-     if (result[2]==100){
-        doors = "Outdoors Club"
-    }
-    if (result[2]==200){
-        doors = "The Pittsbugh Film Society"
-    }
-	document.getElementById("doors").innerHTML = doors;
-
-
-return false; // required to not refresh the page; just leave this here
-} //this ends the submit function
-
-</script>
-<p>Suggested organizations: <span id="sport">__</span>, <span id="reason">__</span>, <span id="doors">__</span> </p>
-
-
-</body>
 
 <head>
 
@@ -212,6 +117,103 @@ return false; // required to not refresh the page; just leave this here
       </a>
     </div>
   </header>
+	    <head>
+        <center>
+<title>JavaScript Quiz</title>
+</head>
+<body>
+<h1>Personality Quiz</h1>
+<form id="form1">
+
+<h2>What sport are you most interested in?</h2>
+<label for="var_string"><input type="radio" name="variable" value="1" id="var_string" />Football</label>
+<label for="var_join"><input type="radio" name="variable" value="2" id="var_join" />Archery</label>
+<label for="var_info"><input type="radio" name="variable" value="3" id="var_info" />Chess</label>
+<label for="var_condition"><input type="radio" name="variable" value="4" id="var_condition"/>Soccer</label>
+     <br> 
+
+<h2>What is your main reason for joining a club?</h2>
+<label for="sub_string"><input type="radio" name="sub" value="10" id="sub_string"/>Community Service</label>
+<label for="sub_join"><input type="radio" name="sub" value="20" id="sub_join"/>Physical fitness</label>
+<label for="sub_info"><input type="radio" name="sub" value="30" id="sub_info" />Furthering your education</label>
+<label for="sub_condition"><input type="radio" name="sub" value="40" id="sub_condition" />Leadership opportunities</label>
+
+<h2>Do you prefer outdoors or indoors activities?</h2>
+<label for="cat_string"><input type="radio" name="con" value="100" id="cat_string" />Outdoors</label>
+<label for="cat_join"><input type="radio" name="con" value="200" id="cat_join" />Indoors</label>
+
+<h2>What year are you?</h2>
+<label for="if_string"><input type="radio" name="ifstate" value="0" id="if_string" />Freshman</label>
+<label for="if_join"><input type="radio" name="ifstate" value="0" id="if_join" />Sophmore</label>
+<label for="if_info"><input type="radio" name="ifstate" value="0" id="if_info" />Junior</label>
+<label for="if_condition"><input type="radio" name="ifstate"  value="0" id="if_condition" />Senior</label>
+
+<br><br>
+<button type="submit" value="Submit">Submit</button>
+
+</form>
+    <script>
+document.getElementById("form1").onsubmit=function() {
+       variable = parseInt(document.querySelector('input[name = "variable"]:checked').value);
+	   sub = parseInt(document.querySelector('input[name = "sub"]:checked').value);
+	   con = parseInt(document.querySelector('input[name = "con"]:checked').value);
+	   ifstate = parseInt(document.querySelector('input[name = "ifstate"]:checked').value);
+	   
+	   var result = [];
+    var sport = "";
+    var reason = "";
+    var doors = "";
+	   result = [variable,sub,con,ifstate];
+    
+    if (result[0]==1){
+        sport = "Club Football"
+    }
+    if (result[0]==2){
+        sport = "Club Archery"
+    }
+    
+    if (result[0]==3){
+        sport = "Chess Club"
+    }
+	   
+    if (result[0]==4){
+        sport = "Club Soccer"
+    }
+	document.getElementById("sport").innerHTML = sport;
+    
+    if (result[1]==10){
+        reason = "BMP Outreach Group"
+    }
+    if (result[1]==20){
+        reason = "Barbell Club"
+    }
+    
+    if (result[1]==30){
+        reason = "American Society of Mechanical Engineers"
+    }
+	   
+    if (result[1]==40){
+        reason = "Student Government Board"
+    }
+	document.getElementById("reason").innerHTML = reason;
+	   
+     if (result[2]==100){
+        doors = "Outdoors Club"
+    }
+    if (result[2]==200){
+        doors = "The Pittsbugh Film Society"
+    }
+	document.getElementById("doors").innerHTML = doors;
+
+
+return false; // required to not refresh the page; just leave this here
+} //this ends the submit function
+
+</script>
+<p>Suggested organizations: <span id="sport">__</span>, <span id="reason">__</span>, <span id="doors">__</span> </p>
+
+</center>
+</body>
 
   <!-- Page Content -->
   <div class="container">
