@@ -11,7 +11,9 @@ Below is a design of the "Quiz" page
 > ![Quiz](Quiz.png)
 
 ### Website Main Layout
-  - design and implementation - work in progress
+  - Main layout is designed to present the user with many different clubs.
+  - Quiz given to user at top of the page.
+  - User is presented with new featured clubs as well as clubs that they follow.
 
 ### Featured Clubs Page
 Part of the website that promotes new clubs. 
