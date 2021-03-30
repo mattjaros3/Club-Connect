@@ -34,7 +34,7 @@ Below is a design of the "Following" page
 Each team member was given a role. The members worked in assigned roles to ensure time was managed effectively.
 ### Team Roles
   - James Baker: Helped search for/implement bootstrap template, worked on website source code
-  - Matt Jaros
+  - Matt Jaros: Created the Javascript Quiz, worked on website source code
   - Andrew Potter
   - Chloe Tassone: created designs for the main website pages (quiz page, featured page, and following page)
   - Catrina Wolf  
