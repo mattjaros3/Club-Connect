@@ -37,7 +37,7 @@ Each team member was given a role. The members worked in assigned roles to ensur
   - Matt Jaros: Created the Javascript Quiz, worked on website source code
   - Andrew Potter: compiled list of clubs, worked on website source code
   - Chloe Tassone: created designs for the main website pages (quiz page, featured page, and following page)
-  - Catrina Wolf  
+  - Catrina Wolf: created the README doc, worked on website source code  
 
 ## Quality
 During the time of COVID-19, there have been many regulations put into place. This caused difficulties for clubs to find new members. It also caused isolation for many students. Club connect allows students to interact with clubs and its members. The club creates a space where students can have a sense of normalcy.
