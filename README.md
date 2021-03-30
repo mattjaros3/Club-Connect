@@ -35,7 +35,7 @@ Each team member was given a role. The members worked in assigned roles to ensur
 ### Team Roles
   - James Baker: Helped search for/implement bootstrap template, worked on website source code
   - Matt Jaros: Created the Javascript Quiz, worked on website source code
-  - Andrew Potter
+  - Andrew Potter: compiled list of clubs, worked on website source code
   - Chloe Tassone: created designs for the main website pages (quiz page, featured page, and following page)
   - Catrina Wolf  
 
